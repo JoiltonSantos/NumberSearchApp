@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
       - name: number-search-app
-        image: number-search-app:latest
-        imagePullPolicy: Never
+        image: joiltonsantos/number-search-app:latest
+        imagePullPolicy: IfNotPresent
         resources:
           requests:
             memory: "256Mi"
