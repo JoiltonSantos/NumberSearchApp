@@ -4,7 +4,7 @@ metadata:
   name: apm-server
   namespace: number-search
 spec:
-  replicas: 1
+  replicas: 5
   selector:
     matchLabels:
       app: apm-server
