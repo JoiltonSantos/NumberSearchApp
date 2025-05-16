@@ -1,0 +1,66 @@
+# Git files
+.git
+.gitignore
+
+# Visual Studio files
+.vs
+*.user
+*.suo
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+x64/
+x86/
+build/
+[Bb]uild*
+bld/
+[Bb]in/
+[Oo]bj/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet packages
+packages/
+*.nupkg
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Docker files
+Dockerfile.original
+**/*.dockerfile
+docker-compose.debug.yml
+**/*docker-compose*
+README.md
+LICENSE
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# IDE-specific files
+*.DotSettings
+*.DotSettings.user
+
+# Application specific
+.env
+.env.*
